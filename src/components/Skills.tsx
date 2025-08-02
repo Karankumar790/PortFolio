@@ -10,17 +10,17 @@ const Skills = () => {
     {
       title: "Backend",
       icon: <Code className="w-6 h-6" />,
-      skills: ["Node.js", "Express.js", "RESTful APIs", "Authentication"]
+      skills: ["Node.js", "Express.js"]
     },
     {
       title: "Database",
       icon: <Database className="w-6 h-6" />,
-      skills: ["MongoDB", "Mongoose", "Database Design"]
+      skills: ["MongoDB"]
     },
     {
-      title: "Tools & Others",
+      title: "Version Control",
       icon: <GitBranch className="w-6 h-6" />,
-      skills: ["Git", "GitHub", "Responsive Design", "Performance Optimization"]
+      skills: ["GitHub", "Git"]
     }
   ];
 

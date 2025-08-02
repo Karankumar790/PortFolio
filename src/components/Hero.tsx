@@ -39,17 +39,21 @@ const Hero = () => {
         
         <div className="fade-in-up flex items-center justify-center gap-2 mb-8" style={{animationDelay: '1s'}}>
           <MapPin className="w-4 h-4 text-primary" />
-          <span className="text-muted-foreground">B-Block 137, Dishad Colony, East Delhi</span>
+          <span className="text-muted-foreground">B-Block 137, Dilshad Colony, East Delhi</span>
         </div>
         
         <div className="fade-in-up flex flex-wrap justify-center gap-4 mb-8" style={{animationDelay: '1.2s'}}>
-          <Button variant="outline" size="lg" className="glow-soft hover:glow-effect transition-all duration-300">
-            <Mail className="w-4 h-4 mr-2" />
-            Email Me
+          <Button variant="outline" size="lg" className="glow-soft hover:glow-effect transition-all duration-300" asChild>
+            <a href="mailto:karankum790941@gmail.com">
+              <Mail className="w-4 h-4 mr-2" />
+              Email Me
+            </a>
           </Button>
-          <Button variant="outline" size="lg" className="glow-soft hover:glow-effect transition-all duration-300">
-            <Phone className="w-4 h-4 mr-2" />
-            +91 9708112055​1
+          <Button variant="outline" size="lg" className="glow-soft hover:glow-effect transition-all duration-300" asChild>
+            <a href="tel:+917081120551">
+              <Phone className="w-4 h-4 mr-2" />
+              +91 7081120551
+            </a>
           </Button>
           <Button variant="outline" size="lg" className="glow-soft hover:glow-effect transition-all duration-300">
             <Download className="w-4 h-4 mr-2" />

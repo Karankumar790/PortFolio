@@ -12,13 +12,13 @@ const Contact = () => {
     {
       icon: <Phone className="w-5 h-5" />,
       label: "Phone",
-      value: "+91 9708112055​1",
-      href: "tel:+919708112055​1"
+      value: "+91 7081120551",
+      href: "tel:+917081120551"
     },
     {
       icon: <MapPin className="w-5 h-5" />,
       label: "Location",
-      value: "B-Block 137, Dishad Colony, East Delhi",
+      value: "B-Block 137, Dilshad Colony, East Delhi",
       href: "#"
     }
   ];
@@ -130,7 +130,7 @@ const Contact = () => {
                 className="w-full hover:glow-soft transition-all duration-300"
                 asChild
               >
-                <a href="tel:+919708112055​1">
+                <a href="tel:+917081120551">
                   <Phone className="w-4 h-4 mr-2" />
                   Schedule a Call
                 </a>

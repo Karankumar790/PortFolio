@@ -5,7 +5,7 @@ const Experience = () => {
     company: "Foxboro Instrument Company",
     position: "Software Engineer",
     duration: "Jan 2024 - Present",
-    location: "Remote",
+    location: "India",
     achievements: [
       "Designed and developed responsive, high-performance user interfaces for a real-time monitoring application, enhancing usability and accessibility for ONGC's critical operations.",
       "Integrated secure and efficient RESTful APIs to enable seamless data flow between front-end components and back-end systems, improving accuracy and performance.",
