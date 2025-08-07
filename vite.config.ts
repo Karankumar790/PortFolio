@@ -29,7 +29,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: '/PortFolio/', // ✅ REQUIRED for GitHub Pages under /PortFolio
+  base: '/', // ✅ REQUIRED for GitHub Pages under /PortFolio
   server: {
     host: "::",
     port: 8080,
